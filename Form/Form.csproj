@@ -81,7 +81,6 @@
     <Content Include="css\main.css" />
     <Content Include="img\group_triangle.png" />
     <Content Include="img\logo.png" />
-    <Content Include="img\paper.png" />
     <Content Include="scripts\canvas.js" />
     <Content Include="scripts\jquery.js" />
     <Content Include="scripts\materialize.min.js" />
