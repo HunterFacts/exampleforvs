@@ -72,14 +72,35 @@
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\materialize.css" />
+    <Content Include="css\materialize.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="img\group_triangle.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\paper.png" />
+    <Content Include="scripts\canvas.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\materialize.min.js" />
+    <Content Include="scripts\materialize.js" />
+    <Content Include="scripts\test.js" />
     <Content Include="Web.config" />
+    <Content Include="Papers.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Papers.aspx.cs">
+      <DependentUpon>Papers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Papers.aspx.designer.cs">
+      <DependentUpon>Papers.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
