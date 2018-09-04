@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="header-help"></div>
                 <div class="col s12 m2 l4 xl6 triangle-img">
-                    <img class="triangle" src="img/group_triangle.png"/>ы
+                    <img class="triangle" src="img/group_triangle.png"/>
                 </div>
                 <div class="control-sm col s12 m10 l8 xl6">
                            
@@ -46,11 +46,12 @@
                         <label>Выбор печатного издания</label>
                     </div>
                     <div class="input-field col s11">
-                        <select id="year" style="color: white;" onchange="check();">
+                        <select id="year" style="color: white;" onchange="check(); montselse ();">
                             <option value="none" disabled selected>Выберите год</option>
                             <option value="1">2016</option>
                             <option value="2">2017</option>
                             <option value="3">2018</option>
+                            <option value="3">2019</option>
                         </select>
                         <label>Выбор календарного года</label>
                     </div>
